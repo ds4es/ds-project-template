@@ -1,13 +1,12 @@
 # Data Science Project Template
 
 ## Folder structure
-- `model`: Folder for storing binary (json or other format) file for local use.
 - `data`: Folder for storing subset data for experiments. It includes both raw data and processed data for temporary use.
-- `doc`:
-- `model`: Folder for storing binary (json or other format) file for local use.
-- `notebook`: Storing all notebooks includeing EDA and modeling stage.
-- `reference`:
-- `report`:
+- `docs`:
+- `models`: Folder for storing binary (json or other format) file for local use.
+- `notebooks`: Storing all notebooks includeing EDA and modeling stage.
+- `references`:
+- `reports`:
 - `src`: Stores source code (python, R etc) which serves multiple scenarios. During data exploration and model training, we have to transform data for particular purpose. We have to use same code to transfer data during online prediction as well. So it better separates code from notebook such that it serves different purpose.
 
 
@@ -27,7 +26,7 @@
 │   ├── interim        <- Intermediate data that has been transformed.
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   └── raw            <- The original, immutable data dump.
-├── doc                <- Space for Sphinx documentation
+├── docs               <- Space for Sphinx documentation
 ├── models             <- Trained and serialized models, model predictions, or model summaries
 ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
 │   |                     the creator's initials, and a short `-` delimited description, e.g.
