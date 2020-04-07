@@ -1,6 +1,10 @@
-# Data Science Project Template
+## Data Science Project Template
 
-## Folder structure
+This template is mainly inspired by the [Cookiecutter Data Science project structure](https://drivendata.github.io/cookiecutter-data-science/). It aims to be a logical, reasonably standardized, but flexible project structure for doing and sharing data science work.
+
+We also recommends to track, manage and share models with MLFlow and Neptune (https://github.com/neptune-ai/neptune-mlflow).
+
+### Folder structure
 - `data`: Datasets.
 - `docs`: Sphinx documentation. 
 - `models`: Trained and serialized models, model predictions, or model summaries.
@@ -53,7 +57,7 @@
 └── tox.ini               <- Automate testing, cf. https://tox.readthedocs.io/en/latest/.
 ```
 
-## References
+### References
 * [Complete Data Science Project Template with Mlflow for Non-Dummies](https://towardsdatascience.com/complete-data-science-project-template-with-mlflow-for-non-dummies-d082165559eb)
 * [MLflow Documentation](https://www.mlflow.org/docs/latest/index.html)
 * [Manage your Data Science project structure in early stage](https://towardsdatascience.com/manage-your-data-science-project-structure-in-early-stage-95f91d4d0600)
