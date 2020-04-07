@@ -53,15 +53,6 @@
 └── tox.ini               <- Automate testing, cf. https://tox.readthedocs.io/en/latest/.
 ```
 
-## Initial setup
-```
-git clone https://github.com/benjamin-berhault/ds_project_template
-cd ./ds_project_template
-virtualenv env
-source ./env/bin/activate
-pip install -r requirements.txt
-```
-
 ## References
 * [Complete Data Science Project Template with Mlflow for Non-Dummies](https://towardsdatascience.com/complete-data-science-project-template-with-mlflow-for-non-dummies-d082165559eb)
 * [MLflow Documentation](https://www.mlflow.org/docs/latest/index.html)
