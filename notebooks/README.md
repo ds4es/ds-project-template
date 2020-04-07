@@ -1,3 +1,5 @@
+Jupyter notebooks. Naming convention is the date (for ordering), the creator's initials, and a short `-` delimited description, e.g. `1.0-jqp-initial-data-exploration`.
+
 - eda: Exploratory Data Analysis (aka Data Exploration) is a step for exploring what you have for later steps. For short term purpose, it should show what you explored. Typical example is showing data distribution. For long term, it should store in centralized place. 
 - poc: Due to some reasons, you have to do some PoC (Proof-of-Concept). It can be show in here for temporary purpose.
 - modeling: Notebook contains your core part which including model building and training. 
