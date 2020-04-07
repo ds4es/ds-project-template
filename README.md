@@ -1,6 +1,6 @@
 ## Data Science Project Template
 
-This template is mainly inspired by the [Cookiecutter Data Science project structure](https://drivendata.github.io/cookiecutter-data-science/). It aims to be a logical, reasonably standardized, but flexible project structure for doing and sharing data science work.
+This template is mainly inspired by the [Cookiecutter Data Science project structure](https://drivendata.github.io/cookiecutter-data-science/) that aims to be a logical, reasonably standardized, but flexible project structure for doing and sharing data science work.
 
 We also recommends to track, manage and share models with MLFlow and Neptune (https://github.com/neptune-ai/neptune-mlflow).
 
